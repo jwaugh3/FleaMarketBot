@@ -1,0 +1,192 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Title -->
+        <title>TogglEsports</title>
+
+        <!-- Favicon -->
+        <link REL="SHORTCUT ICON" HREF="Images/Profpicpatreon.jpg">
+
+        <!-- STYLE SHEETS -->
+        <link rel="stylesheet" media="screen and (min-width: 2000px)" href="stylesheets/extraLarge.css">
+        <link rel="stylesheet" media="screen and (min-width: 1280px) and (max-width: 1999px)" href="stylesheets/large.css">
+        <link rel="stylesheet" media="screen and (max-width: 1279px)" href="stylesheets/small.css">
+
+        <!-- FONTS -->
+        <link href="//db.onlinewebfonts.com/c/b459103556cd3b6504b5a9fe47b8ca07?family=Swiss+721" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar -->
+    
+        <nav class="navContainer" id="home">
+            
+            <button class="navText navText1" id="Home"><a class="textDeco active" href="index.html">Home</a></button>
+            <button class="navText navText2"><a class="textDeco" href="index.html#download">Download</a></button>
+            <button class="navText navText3"><a class="textDeco" href="contact.html">Contact Us</a></button>
+            
+            <div class="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <ul id="menu">
+                    <a href="#home" class="textSmall smallActive"><li>Home</li></a>
+                    <a href="#download" class="textSmall"><li>Download</li></a>
+                    <a href="contact.html" class="textSmall"><li>Contact</li></a>
+                  </ul>
+                </div>
+            </div>
+
+            <div class="login">
+                <a style="text-decoration: none" href="signup.html">
+                    <div class="signup">
+                        <p class="signupText">Sign Up</p>
+                        <img src="Images/signup.png" class="loginIcon" alt="Login"/>
+                    </div>
+                </a>
+            </div>
+            
+        </nav>
+
+        <!-- Active Tab Script -->
+
+    <script>
+
+    var small = document.getElementsByClassName("textSmall");
+    var btns = document.getElementsByClassName("textDeco");
+
+        for (var i = 0; i < small.length; i++){
+        small[i].addEventListener("click", function() {
+            const current = document.getElementsByClassName("smallActive");
+            current[0].className = current[0].className.replace(" smallActive", "");
+            this.className += " smallActive";
+            });
+        }
+
+        for (var i = 0; i < btns.length; i++){
+        btns[i].addEventListener("click", function() {
+            const current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+        }
+
+        </script>
+
+
+    <div class="mainContainer">
+
+<!-- Banner -->
+
+        <div class="banner">
+            <img class="headerBanner" src="Images/websitebanner.png" alt="Website Banner">
+            <div class="containerDividerbanner"></div>
+        </div>
+
+
+<!-- Container 1 -->
+        <div class="homeContainer1">
+            
+            
+            <div class="productDisplayContainer">
+                <img src="Images/TwitchExtrudedWordmarkPurple.png" class="productDisplay1" alt="Dashboard">
+            </div>
+
+            <div class="container1TextContainer">
+                <h1 class="container1Text1">Gain easy access to Escape From Tarkov</h1>
+                <h1 class="container1Text2">Flea Market prices through Twitch.tv</h1>
+                <div class="patronButton">
+                    <a href="https://www.patreon.com/bePatron?u=36663606" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                </div>
+            </div>
+
+            <img src="resources/whiteDivConatiner2Top.png" class="containerDivider2Top" alt="Divider">
+        </div>
+
+
+<!-- Container 2 -->
+        
+
+        <div class="homeContainer2">
+            <div class="container2TextContainerTop">
+                <h1 class="container2Emote1">🎉🎉🎉</h1>
+                <h1 class="container2Text1">Gift FleaMarketBot access to your favorite streamer to show your appreciation</h1>
+                <!-- <h1 class="container2Text2">favorite streamer to show your appreciation</h1> -->
+                <h1 class="container2Emote2">🎉🎉🎉</h1>
+            </div>
+
+            <div class="productDisplayContainer2">
+                <img src="Images/TwitchGlitchPurple.png" class="productDisplay2" alt="Dashboard Stats">
+            </div>
+        </div>
+
+<!-- Container Final -->
+        
+
+        <div class="homeContainerfinal">
+            <img src="resources/whiteDivConatiner2Bottom.png" class="containerDivider2Bottom" alt="Divider">
+            <div class="containerFinalTextContainerTop">
+                <h1 class="containerFinalEmote1">😄😄😄</h1>
+                <h1 class="containerFinalText1">FleaMarketBot gives you and your viewers access to real-time in-game flea market prices.</h1>
+                <!-- <h1 class="containerFinalText2">favorite streamer to show your appreciation</h1>
+                <h1 class="containerFinalText3">favorite streamer to show your appreciation</h1> -->
+                <h1 class="containerFinalEmote2">😄😄😄</h1>
+            </div>
+
+            <div class="productDisplayContainerFinal">
+                <img src="Images/chatText.jpg" class="productDisplayFinal" alt="Dashboard Stats">
+            </div>
+            <img src="resources/whiteDivConatiner2Top.png" class="containerDividerFinalTop" alt="Divider">
+        </div>
+    
+
+<!-- Container 3 -->
+
+        <div class="homeContainer3" id="download">
+            
+
+            <div class="content3Container">
+                <div class="container3TextContainer">
+                    <h1 class="container3Text">Check out Patreon for more details</h1>
+                </div class="linkContainer">     
+                    <img src="Images/patreonBadge.png" href="https://www.patreon.com/bePatron?u=36663606" class="webStoreBadge" alt="Patreon Badge">
+            </div>
+                <img src="resources/blackDivFooterBottom.png" class="containerDividerFooter" alt="Divider">
+            </div>
+       
+
+
+<!-- Footer -->
+
+        <footer class="footerContainer">
+            <div class="footerNav">
+                <button class="homeFooterButton"><a class="homeFooterButton" href="#home">Home</a></button>
+                <button class="downloadFooterButton"><a class="downloadFooterButton" href="#download">Download</a></button>
+                <button class="contactUsFooterButton"><a class="contactUsFooterButton" href="contact.html">Contact Us</a></button>
+                
+            </div>
+
+            <div class="disclaimerContainer">
+                <p class="disclaimer">FleaMarketBot is owned and operated by TogglEsports</p>
+            </div>
+        </footer>
+
+<!-- SCRIPTS -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- <script type="text/javascript" src="js/carousel.js"></script> -->
+
+    </body>
+
+</html>
