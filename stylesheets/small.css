@@ -559,8 +559,9 @@ body {
 }
 
 .webStoreBadge:hover {
-	transition-duration: .5s;
-	border: white solid 4px;
+	transition-duration: .3s;
+	background-color: #f86754;
+	border-radius: 15px;
 }
 
 .linkContainer {
