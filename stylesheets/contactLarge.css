@@ -352,7 +352,7 @@ body {
 .mainContainerSignUp {
 	background-color: #3d444d;
 	display: grid;
-	grid-template-rows: 20vh 65vh;
+	grid-template-rows: 20vh 85vh;
 }
 
 .linked {
