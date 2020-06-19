@@ -38,7 +38,7 @@ body {
 	background-color: #55606e;
 	display: grid;
 	grid-template-rows: 60px;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(8, 1fr);
 	min-height: 40px;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .active {
 	text-decoration: underline !important;
-	text-decoration-color: #7389F7 !important;
+	text-decoration-color: #7389f7 !important;
 }
 
 .navText {
@@ -97,8 +97,8 @@ body {
 }
 
 .login {
-	grid-column-start: 7;
-	grid-column-end: 8;
+	grid-column-start: 8;
+	grid-column-end: 9;
 	margin: auto;
 }
 
@@ -334,9 +334,8 @@ body {
 .disclaimer {
 	font-family: 'Swis721-reg';
 	font-size: 15px;
-	color: #49586D;
+	color: #49586d;
 }
-
 
 .patreonButton {
 	margin-top: 10%;
@@ -357,7 +356,6 @@ body {
 
 .linked {
 	text-decoration: none;
-	
 }
 
 .button {
@@ -388,7 +386,7 @@ body {
 	background-color: white;
 	border-radius: 15px;
 	display: grid;
-	grid-template-rows: 12% 12% 10% 40% 26% ;
+	grid-template-rows: 12% 10% 4% 48% 26%;
 	font-family: 'Swis721-reg';
 }
 
@@ -402,7 +400,7 @@ body {
 	background-color: white;
 	border-radius: 15px;
 	display: grid;
-	grid-template-rows: 12% 12% 10% 40% 26% ;
+	grid-template-rows: 12% 10% 4% 48% 26%;
 	font-family: 'Swis721-reg';
 }
 
@@ -453,4 +451,44 @@ li {
 	left: 26%;
 	color: white;
 	font-size: 26px;
+}
+
+.commandsTitle {
+	margin: auto;
+	font-size: 25px;
+	text-align: center;
+}
+
+.commandTier {
+	margin-top: 0px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	width: 400px;
+	height: 600px;
+	margin: auto;
+	background-color: white;
+	border-radius: 15px;
+	display: grid;
+	grid-template-rows: 22% 58% 20%;
+	font-family: 'Swis721-reg';
+}
+
+.commandTier2 {
+	margin-top: 0px;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	width: 400px;
+	height: 600px;
+	margin: auto;
+	background-color: white;
+	border-radius: 15px;
+	display: grid;
+	grid-template-rows: 22% 58% 20%;
+	font-family: 'Swis721-reg';
+}
+
+
+.subText {
+	font-family: 'Swis721-reg';
+	font-size: 15px;
 }

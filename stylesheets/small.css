@@ -19,7 +19,6 @@
 	font-style: normal;
 }
 
-
 * {
 	margin: 0px;
 }
@@ -292,7 +291,6 @@ body {
 	transform: translateX(-50%);
 	z-index: 3;
 	top: 50%;
-	
 }
 
 /* Container 1 Text */
@@ -549,6 +547,7 @@ body {
 	grid-row-end: 3;
 	grid-column-start: 1;
 	grid-column-end: 2;
+	background-color: #f86754;
 	height: 80px;
 	margin: auto;
 	cursor: pointer;
@@ -557,11 +556,12 @@ body {
 	left: 50%;
 	transform: translateY(-50%);
 	transform: translateX(-50%);
+	border-radius: 15px;
 }
 
 .webStoreBadge:hover {
 	transition-duration: .3s;
-	background-color: #f86754;
+	background-color: darkgrey;
 	border-radius: 15px;
 }
 
@@ -615,7 +615,7 @@ body {
 .disclaimer {
 	font-family: 'Swis721-reg';
 	font-size: 15px;
-	color: #49586D;
+	color: #49586d;
 	text-align: center;
 	margin-bottom: 0%;
 }

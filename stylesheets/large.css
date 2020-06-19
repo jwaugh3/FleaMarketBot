@@ -38,7 +38,7 @@ body {
 	background-color: #55606e;
 	display: grid;
 	grid-template-rows: 60px;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(8, 1fr);
 	min-height: 40px;
 }
 
@@ -92,8 +92,8 @@ body {
 }
 
 .login {
-	grid-column-start: 7;
-	grid-column-end: 8;
+	grid-column-start: 8;
+	grid-column-end: 9;
 	margin: auto;
 }
 
@@ -174,7 +174,6 @@ body {
 	height: 100%;
 	object-fit: cover;
 }
-
 
 /* --- */
 /* homeContainer1 */
@@ -472,7 +471,6 @@ body {
 	grid-column-end: 3;
 	margin-right: 0px;
 	position: relative;
-	
 }
 
 .webStoreBadge {
@@ -480,17 +478,19 @@ body {
 	grid-row-end: 3;
 	grid-column-start: 1;
 	grid-column-end: 2;
+	background-color: #f86754;
 	height: 110px;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	top: 35%;
 	cursor: pointer;
+	border-radius: 15px;
 }
 
 .webStoreBadge:hover {
 	transition-duration: .3s;
-	background-color: #f86754;
+	background-color: darkgrey;
 	border-radius: 15px;
 }
 
@@ -577,5 +577,5 @@ body {
 .disclaimer {
 	font-family: 'Swis721-reg';
 	font-size: 15px;
-	color: #49586D;
+	color: #49586d;
 }
