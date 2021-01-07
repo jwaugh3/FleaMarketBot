@@ -159,8 +159,30 @@ body {
 
 .mainContainer {
 	background-color: #3d444d;
-	display: grid;
-	grid-template-rows: 750px 880px 630px 750px;
+}
+
+.aboutContainer {
+	width: 50%;
+	margin: auto;
+}
+
+.headerText {
+	color: white;
+	font-family: 'Swis721-reg';
+	text-decoration: none;
+	padding-top: 25px;
+}
+
+.bodyText {
+	color: white;
+	font-family: 'Swis721-reg';
+	text-decoration: none;
+}
+
+.linkMeta {
+	color: rgb(217, 186, 252);
+	font-weight: bold;
+	text-decoration: none;
 }
 
 /* --- */
@@ -486,7 +508,6 @@ li {
 	grid-template-rows: 22% 58% 20%;
 	font-family: 'Swis721-reg';
 }
-
 
 .subText {
 	font-family: 'Swis721-reg';
